@@ -4,6 +4,7 @@ import {FaHouseChimney} from "react-icons/fa6"
 import {FaBriefcase} from "react-icons/fa6"
 import {FaUserAstronaut} from "react-icons/fa6"
 import {FaPaperPlane} from "react-icons/fa6"
+import {BsFillMoonStarsFill} from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -14,7 +15,38 @@ export default function Home() {
         </Head>
 
         <main>
-
+          <section className="xs-max:hidden fixed top-0 right-0 left-0 z-11 flex justify-between p-4 bg-white">
+            <nav role="navigation">
+              <ul className="flex justify-start items-center">
+                <li>
+                  <a href="#top">
+                    <figure className="my-0 ml-2 mr-8">
+                      <img src="/favicon.svg" alt="Sergey Karavaev Vector Logo SVG"/>
+                    </figure>
+                  </a>
+                </li>
+                <li>
+                  <a className="md2-max:hidden text-dark text-lg" href="#top">Sergey Karavaev</a>
+                </li>
+              </ul>
+            </nav>
+            <nav role="navigation">
+              <ul className="flex justify-end items-center">
+                <li className="py-2 px-6">
+                  <a className="text-dark text-lg" href="#projects">Projects</a>
+                </li>
+                <li className="py-2 px-6">
+                  <a className="text-dark text-lg" href="#about">About</a>
+                </li>
+                <li className="py-2 px-6">
+                  <a className="text-dark text-lg" href="#connect">Connect</a>
+                </li>
+                {/*<li className="py-2 px-6">
+                  <BsFillMoonStarsFill className="text-dark text-lg"/>
+                 </li>*/}
+              </ul>
+            </nav>
+          </section>
         </main>
         
         <footer className="mt-20 ">
