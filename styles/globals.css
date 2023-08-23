@@ -17,15 +17,3 @@
     --background-end-rgb: 0, 175, 180;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    no-repeat
-    rgb(var(--background-start-rgb));
-  font-family: 'Titillium Web', sans-serif;
-}
