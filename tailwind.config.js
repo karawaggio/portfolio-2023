@@ -31,6 +31,10 @@ module.exports = {
         'lg': '1024px',
         // @media (min-width: 1280px)
         'xl': '1280px',
+        // @media (min-width: 768px and max-width: 1279.98px)
+        'md-xl': {'min': '768px', 'max': '1279.98px'},
+        // @media (min-width: 992px and max-width: 1279.98px)
+        'md2-xl': {'min': '992px', 'max': '1279.98px'},
       },
       colors: {
         'primary': '#00afb4',
@@ -53,18 +57,32 @@ module.exports = {
       minHeight: {
         'header': '4.8rem',
       },
+      gridTemplateColumns: {
+        'connect-gridlg': '4.5rem auto',
+      },
       fontSize: {
         smbase: '0.95rem',
-        h1md: '2.95rem',
-        h1lg: '3.4rem',
-        h2md: '1.587rem',
-        h2lg: '2rem',
+        h1heromd: '2.95rem',
+        h1herolg: '3.4rem',
+        h2heromd: '1.587rem',
+        h2herolg: '2rem',
+        h2sectionmd: '2.25rem',
+        h2sectionlg: '2.373rem',
+        iconsm: '2.8rem',
+        iconmd: '3rem',
+        h3connectsm: '1.69rem',
+        h3connectmd: '1.8rem',
+        pconnectmd: '1.06875rem',
       },
       lineHeight: {
+        'normal-enforced': '1.5',
         'extra-relaxed': '1.9',
       },
       letterSpacing: {
         tightest: '.075em',
+      },
+      margin: {
+        '0.8rem': '0.8rem',
       },
     },
   },
