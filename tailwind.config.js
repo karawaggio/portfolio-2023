@@ -58,7 +58,7 @@ module.exports = {
         'header': '4.8rem',
       },
       gridTemplateColumns: {
-        'connect-gridlg': '4.5rem auto',
+        'social-gridlg': '4.5rem auto',
       },
       fontSize: {
         smbase: '0.95rem',
@@ -70,9 +70,9 @@ module.exports = {
         h2sectionlg: '2.373rem',
         iconsm: '2.8rem',
         iconmd: '3rem',
-        h3connectsm: '1.69rem',
-        h3connectmd: '1.8rem',
-        pconnectmd: '1.06875rem',
+        h3socialsm: '1.69rem',
+        h3socialmd: '1.8rem',
+        psocialmd: '1.06875rem',
       },
       lineHeight: {
         'normal-enforced': '1.5',
