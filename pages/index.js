@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
+import AboutSection from "./components/AboutSection"
 import SocialSection from "./components/SocialSection"
 import Footer from "./components/footer/Footer"
 
@@ -15,6 +16,7 @@ export default function Home() {
         <main>
           <Header/>
           <HeroSection/>
+          <AboutSection/>
           <SocialSection/>
         </main>
         
