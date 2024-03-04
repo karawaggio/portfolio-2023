@@ -62,6 +62,7 @@ module.exports = {
       },
       fontSize: {
         smbase: '0.95rem',
+        ox: '1.2rem',
         h1heromd: '2.95rem',
         h1herolg: '3.4rem',
         h2heromd: '1.587rem',
