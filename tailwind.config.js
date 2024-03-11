@@ -29,12 +29,20 @@ module.exports = {
         'md2-max': {'max': '991.98px'},
         // @media (min-width: 1024px)
         'lg': '1024px',
+        // @media (min-width: 1200px)
+        'xsl': '1200px',
         // @media (min-width: 1280px)
         'xl': '1280px',
+        // @media (min-width: 768px and max-width: 1023.98px)
+        'md-lg': {'min': '768px', 'max': '1023.98px'},
         // @media (min-width: 768px and max-width: 1279.98px)
         'md-xl': {'min': '768px', 'max': '1279.98px'},
+        // @media (min-width: 768px and max-width: 1299.98px)
+        'md-xl2': {'min': '768px', 'max': '1299.98px'},
         // @media (min-width: 992px and max-width: 1279.98px)
         'md2-xl': {'min': '992px', 'max': '1279.98px'},
+         // @media (min-width: 1299px)
+        'xl2': '1299px',
       },
       colors: {
         'primary': '#00afb4',
@@ -56,6 +64,12 @@ module.exports = {
       },
       minHeight: {
         'header': '4.8rem',
+      },
+      maxWidth: {
+        '33': '33.333333%',
+        '50': '50%',
+        '60': '60%', 
+        '66': '66.666667%',        
       },
       gridTemplateColumns: {
         'social-gridlg': '4.5rem auto',
