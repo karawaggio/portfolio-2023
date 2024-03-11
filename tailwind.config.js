@@ -41,8 +41,10 @@ module.exports = {
         'md-xl2': {'min': '768px', 'max': '1299.98px'},
         // @media (min-width: 992px and max-width: 1279.98px)
         'md2-xl': {'min': '992px', 'max': '1279.98px'},
-         // @media (min-width: 1299px)
-        'xl2': '1299px',
+         // @media (min-width: 1300px)
+        'xl2-min': '1300px',
+        // @media (min-width: 1300px)
+        'xxl': '1550px',
       },
       colors: {
         'primary': '#00afb4',
@@ -67,6 +69,7 @@ module.exports = {
       },
       maxWidth: {
         '33': '33.333333%',
+        '40': '40%',
         '50': '50%',
         '60': '60%', 
         '66': '66.666667%',        
