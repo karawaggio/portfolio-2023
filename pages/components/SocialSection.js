@@ -58,7 +58,7 @@ function SocialSection() {
                     </span>
                     <div className="md-min:py-3">
                       <h3 className="md-max:text-h3socialsm md-min:text-h3socialmd leading-normal pt-1.5 pb-1">Resume</h3>
-                      <p className="text-dark-grey md-max:mt-1 md-min:text-psocialmd">under review</p>
+                      <p className="text-dark-grey md-max:mt-1 md-min:text-psocialmd">upon request</p>
                       {/* <a class="main-btn resume-btn" href="resume/sergey-karavaev-resume.pdf" target="_blank">Resume</a> */}
                     </div>
                   </div>
