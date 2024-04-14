@@ -7,7 +7,7 @@ function SocialSection() {
     return(
         <section className="xs-max:mt-0.8rem xs-min:m-4 md-min:p-12 p-4 bg-light-grey rounded">
           <div className="py-4 px-8 my-12 mx-auto">
-            <h2 className="md-max:text-center md-max:text-h2sectionmd md-min:text-h2sectionlg leading-normal text-dark">Let's connect</h2>
+            <h2 className="md-max:text-center md-max:text-4xl md-min:text-h2sectionlg leading-normal text-dark">Let's connect</h2>
 
             <div className="md-max:text-center md2-xl:mt-8 md2-xl:ml-4 xl:mt-16 xl:ml-0">
             <ul className="md-xl:py-4 md2-xl:grid md2-xl:grid-cols-2 md2-xl:gap-x-8 md2-xl:gap-y-4 xl:flex xl:justify-between xl:text-center">

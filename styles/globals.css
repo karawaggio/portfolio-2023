@@ -23,3 +23,42 @@
   clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   pointer-events: none;
 }
+
+.project-tag {
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.5em 0.2em 1.4em;
+  margin: 0.09em 0.15em 0.09em 0.15em;
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  color: #777;
+  border-top: 0.1em solid #00ebc8;
+  border-bottom: 0.1em solid #00ebc8;
+}
+
+.project-tag::before,
+.project-tag::after {
+  content: ' ';
+  width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 50%;
+  border: 0.1em solid #00ebc8;
+  border-left: 0;
+  border-bottom: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.project-tag::after {
+  right: 0;
+  margin: -0.9em -0.9em 0 0;
+}
+
+.project-tag::before {
+  left: 0;
+  margin: -0.9em 0 0 -.95em;
+}

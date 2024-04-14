@@ -5,7 +5,7 @@ function AboutSection() {
     return(
         <section className="xs-max:mt-0.8rem xs-min:m-4 md-min:p-12 p-4 bg-light-grey rounded">
           <div className="py-4 px-8 my-12 mx-auto">
-            <h2 className="md-max:text-center md-max:text-h2sectionmd md-min:text-h2sectionlg leading-normal text-dark">About me</h2>
+            <h2 className="md-max:text-center md-max:text-4xl md-min:text-h2sectionlg leading-normal text-dark">About me</h2>
             <section className="flex md-max:flex-col">
               <article>
                 <p className="mt-6 text-dark-grey text-ox">Hello, my name is Sergey. I’m an enthusiastic front-end developer with five years of experience passionate about 
