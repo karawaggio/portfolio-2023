@@ -5,7 +5,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs'
 function Header() {
     return(    
         <header className="xs-min:min-h-header">
-          <div className="xs-max:hidden flex justify-between p-4 fixed top-0 right-0 left-0 bg-white z-10">
+          <div className="xs-max:hidden flex justify-between p-3 fixed top-0 right-0 left-0 bg-white z-10">
             <nav role="navigation">
               <ul className="flex justify-start items-center pl-10">
                 <li>
