@@ -15,7 +15,7 @@ function ProjectsSection() {
                   imgSrc={mockupSummit} 
                   heading="WordPress site for a business center" 
                   projectTags={projectOneTags}
-                  paragraph="Transformed the way Summit Executive Center site looks like"
+                  paragraph="Transformed Summit Executive Center website"
                   buttonLabels={projectOneBtns}
                 />
               </article>
@@ -26,7 +26,7 @@ function ProjectsSection() {
                   imgSrc={mockupSummit} 
                   heading="WordPress site for a business center" 
                   projectTags={projectOneTags}
-                  paragraph="Transformed the way Summit Executive Center site looks like"
+                  paragraph="Transformed Summit Executive Center website"
                   buttonLabels={projectOneBtns}
                 />
               </article>
