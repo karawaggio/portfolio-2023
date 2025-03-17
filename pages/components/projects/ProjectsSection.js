@@ -9,7 +9,8 @@ function ProjectsSection() {
           <div className="pl-0 pr-4 px-8 my-12 mx-auto">
             <div className="flex flex-wrap flex-col">
               <article className="mt-12">
-                <SingleProject 
+                <SingleProject
+                  projectID="project1"
                   imageOrder="order-0" 
                   contentOrder="order-1" 
                   imgSrc={mockupSummit} 
@@ -20,7 +21,8 @@ function ProjectsSection() {
                 />
               </article>
               <article className="mt-28">
-                <SingleProject 
+                <SingleProject
+                  projectID="project2"
                   imageOrder="order-1" 
                   contentOrder="order-0" 
                   imgSrc={mockupSummit} 
