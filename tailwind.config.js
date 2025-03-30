@@ -17,6 +17,8 @@ module.exports = {
         'xs-max': {'max': '575.98px'},
         // @media (min-width: 640px)
         'sm': '640px',
+        // @media (max-width: 639.98px)
+        'sm-max': {'max': '639.98px'},
         // @media (min-width: 768px)
         'md-min': '768px',
         // @media (min-width: 767.98px)
@@ -72,7 +74,8 @@ module.exports = {
         '40': '40%',
         '50': '50%',
         '60': '60%', 
-        '66': '66.666667%',        
+        '66': '66.666667%',
+        '90': '90%',        
       },
       gridTemplateColumns: {
         'social-gridlg': '4.5rem auto',

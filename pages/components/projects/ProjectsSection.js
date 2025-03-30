@@ -5,7 +5,7 @@ function ProjectsSection() {
     const projectOneTags = ['WordPress', 'Child Theme', 'UX Design', 'JavaScript', 'jQuery', 'PHP', 'SASS'];
     const projectOneBtns = ['Case study', 'View live'];
     return(
-        <section className="xs-max:mt-0.8rem xs-min:m-4 md-min:p-12 p-4 bg-light-grey rounded">
+        <section className="xs-max:mt-0.8rem xs-min:m-4 md-min:p-12 p-4 bg-white rounded">
           <div className="pl-0 pr-4 px-8 my-12 mx-auto">
             <div className="flex flex-wrap flex-col">
               <article className="mt-12">

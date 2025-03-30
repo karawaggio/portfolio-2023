@@ -3,7 +3,7 @@ import sklogo from "public/sk-logo.svg"
 
 function HeroSection() {
     return(
-        <section className="xs-max:p-4 xs-min:mx-4 xs-min:mb-4 sm-md:pt-36 sm-md:pb-28 bg-light-grey text-center md-min:p-28 rounded">
+        <section className="xs-max:p-4 xs-min:mx-4 xs-min:mb-4 sm-md:pt-36 sm-md:pb-28 bg-white text-center md-min:p-28 rounded">
           <div className="md2-min:p-12 my-12">
             <figure className="mb-4">
                 <Image className="xs-max:block xs-min:hidden w-logo-width h-logo-height mt-24 mx-auto mb-12" src={sklogo} alt="Sergey Karavaev logo SVG"/>
