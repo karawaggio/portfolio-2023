@@ -25,14 +25,8 @@
 }
 
 .project-tag {
-  position: relative;
-  display: inline-block;
   padding: 0.2em 0.5em 0.2em 1.4em;
   margin: 0.09em 0.15em 0.09em 0.15em;
-  font-size: 1rem;
-  line-height: 2;
-  letter-spacing: 0.1em;
-  color: #777;
   border-top: 0.1em solid #00ebc8;
   border-bottom: 0.1em solid #00ebc8;
 }

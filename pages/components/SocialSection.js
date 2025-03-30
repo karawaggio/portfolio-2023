@@ -5,7 +5,7 @@ import {FaRegFileLines} from "react-icons/fa6"
 
 function SocialSection() {
     return(
-        <section className="xs-max:mt-0.8rem xs-min:m-4 md-min:p-12 p-4 bg-light-grey rounded">
+        <section className="xs-max:mt-0.8rem xs-min:m-4 md-min:p-12 p-4 bg-white rounded">
           <div className="py-4 px-8 my-12 mx-auto">
             <h2 className="md-max:text-center md-max:text-4xl md-min:text-h2sectionlg leading-normal text-dark">Let's connect</h2>
 
